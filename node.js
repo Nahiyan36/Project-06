@@ -25,11 +25,6 @@ m.querySelector(".interview").addEventListener('click', function(){
   m.querySelector(".remove").addEventListener("click", function(){
     m.remove();
     updateData();
-      if(document.querySelectorAll(".main").length===0){
-      document.getElementById("hiddenItem1").classList.remove('hidden')
-    }
-    
-  })
 
 })
 
